@@ -63,7 +63,7 @@ class Login extends Component {
         const { classes } = this.props;
         return (
             <div>
-                <ParticlesBg color="#7C00C8" type="circle" bg={true} />
+                <ParticlesBg color="#7C00C8" type="tadpole" bg={true} />
                 <Container component="main" maxWidth="xs">
                     <CssBaseline />
                     <div className={classes.paper}>
