@@ -26,10 +26,10 @@ Esta es una aplicación web diseñada para darle un soporte de gestión totalmen
 **Para probar el serivicio REST puede usar postman**
 
     - servicios:
-        - GET: /users/byEmail/{emailUser}   ** buscar usuario por email
-        - GET: /users/   ** trae todos los usuarios registrados
-        - GET: /users/orderByRol/  ** trae los usuarios por roles
-        - POST: /users/save/   ** registra un usuario recibiendo un json como ejemplo:
+        - GET: /users/byEmail/{emailUser}      **buscar usuario por email**
+        - GET: /users/   **trae todos los usuarios registrados**
+        - GET: /users/orderByRol/  **trae los usuarios por roles**
+        - POST: /users/save/   **registra un usuario recibiendo un json como ejemplo:**
             ```json
             {
                 "name": "Andresd Vasquez 2",
@@ -40,7 +40,7 @@ Esta es una aplicación web diseñada para darle un soporte de gestión totalmen
                 
             }
             ```
-        - DELETE: /users/delete/{userEmail}   ** elimina un usuario por email
+        - DELETE: /users/delete/{userEmail}   **elimina un usuario por email**
 
 
 # link Respositoro frontend y Beta microservico REST en heroku
