@@ -45,7 +45,7 @@ Esta es una aplicación web diseñada para darle un soporte de gestión totalmen
 
 # link Respositoro frontend y Beta aplicacion web desplegada en heroku
 
-- [Easy Parking Frontend](https://github.com/Easy-Parking/Easy-Parking-SPRINT-2-frontend.git)
+- [Easy Parking Frontend](https://github.com/Easy-Parking/Easy-Parking-SPRINT-2-frontend.git) : repositorio Frontend
 
 - [Easy Parking Frontend Heroku](https://frontend-easyparking.herokuapp.com/) : heroku Frontend
 
