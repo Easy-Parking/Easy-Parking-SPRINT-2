@@ -18,13 +18,36 @@ Esta es una aplicación web diseñada para darle un soporte de gestión totalmen
     <img  src="img/diseño.JPG">
 </p>
 
-# link Repositorio backend
+# link Repositorio backend y Beta desplegada en heroku
 
-- [Easy Parking Backend](https://github.com/Easy-Parking/Easy-Parking-SPRINT-2-backend.git)
+- [Easy Parking Backend](https://github.com/Easy-Parking/Easy-Parking-SPRINT-2-backend.git) : repositorio Backend
 
-# link Respositoro frontend
+- [Easy Parking Backend Heroku](https://backend-easyparking.herokuapp.com/) : heroku Backend
+**Para probar el serivicio REST puede usar postman**
+
+    - servicios:
+        - GET: /users/byEmail/{emailUser}   ** buscar usuario por email
+        - GET: /users/   ** trae todos los usuarios registrados
+        - GET: /users/orderByRol/  ** trae los usuarios por roles
+        - POST: /users/save/   ** registra un usuario recibiendo un json como ejemplo:
+            ```json
+            {
+                "name": "Andresd Vasquez 2",
+                "rol": "administrador",
+                "email": "andres2@gmail.com",
+                "password": "shshs23",
+                "parkings": ["1","2"]  //array
+                
+            }
+            ```
+        - DELETE: /users/delete/{userEmail}   ** elimina un usuario por email
+
+
+# link Respositoro frontend y Beta microservico REST en heroku
 
 - [Easy Parking Frontend](https://github.com/Easy-Parking/Easy-Parking-SPRINT-2-frontend.git)
+
+- [Easy Parking Frontend Heroku](https://frontend-easyparking.herokuapp.com/) : heroku Frontend
 
 
 # Descripción
