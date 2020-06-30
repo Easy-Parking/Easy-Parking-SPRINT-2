@@ -18,7 +18,7 @@ Esta es una aplicación web diseñada para darle un soporte de gestión totalmen
     <img  src="img/diseño.JPG">
 </p>
 
-# link Repositorio backend y Beta desplegada en heroku
+# link Repositorio backend y Beta microservico REST en heroku
 
 - [Easy Parking Backend](https://github.com/Easy-Parking/Easy-Parking-SPRINT-2-backend.git) : repositorio Backend
 
@@ -43,7 +43,7 @@ Esta es una aplicación web diseñada para darle un soporte de gestión totalmen
         - DELETE: /users/delete/{userEmail}   **elimina un usuario por email**
 
 
-# link Respositoro frontend y Beta microservico REST en heroku
+# link Respositoro frontend y Beta aplicacion web desplegada en heroku
 
 - [Easy Parking Frontend](https://github.com/Easy-Parking/Easy-Parking-SPRINT-2-frontend.git)
 
