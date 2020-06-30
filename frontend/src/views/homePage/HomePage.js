@@ -45,7 +45,7 @@ class HomePage extends Component {
             
             <div>
                 <div>
-                <ParticlesBg color="#7C00C8" type="tadpole" bg={true} />
+                <ParticlesBg color="#7C00C8" type="cobweb" bg={true} />
                 </div>
             <Button variant="outlined" color="primary" onClick={this.handleOpen}>
                 Show backdrop
@@ -88,7 +88,7 @@ const styles = theme=> ({
 
     },
     paper: {
-      backgroundColor: "#fff",
+      backgroundColor: "#ff00",
       border: '2px solid #000',
       boxShadow: theme.shadows[5],
       padding: theme.spacing(2, 4, 3),
