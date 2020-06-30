@@ -19,6 +19,7 @@ import java.util.List;
 /**
  * @author vashi
  */
+@CrossOrigin //habilitar CORS navegadores
 @RestController
 @RequestMapping("/users")
 public class UserRestController {
