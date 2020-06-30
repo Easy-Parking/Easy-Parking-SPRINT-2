@@ -12,6 +12,15 @@ Easy Parking - Sistema de gestión de Estacionamiento para Establecimientos
 
 Esta es una aplicación web diseñada para darle un soporte de gestión totalmente tecnológico y perzonalizado integrando los sistemas IoT (Internet of Things) del establecimiento consiguiendo el máximo beneficio, productividad y control.
 
+# link Repositorio backend
+
+- [Easy Parking Backend](https://github.com/Easy-Parking/Easy-Parking-SPRINT-2-backend.git)
+
+# link Respositoro frontend
+
+- [Easy Parking Frontend](https://github.com/Easy-Parking/Easy-Parking-SPRINT-2-frontend.git)
+
+
 # Descripción
 
 contará con dos tipos de usuarios y vistas:
