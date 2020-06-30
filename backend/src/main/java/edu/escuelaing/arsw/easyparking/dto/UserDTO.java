@@ -1,14 +1,9 @@
-package edu.escuelaing.arsw.easyparking.model;
-
-//Required imports
-import org.springframework.data.annotation.Id;
-import org.springframework.data.mongodb.core.mapping.Document;
+package edu.escuelaing.arsw.easyparking.dto;
 
 import java.util.List;
 
-@Document(collection = "users")
-public class User {
-    @Id
+public class UserDTO {
+
     private String id;
     private String name;
     private String rol;
@@ -16,12 +11,11 @@ public class User {
     private String password;
     private List<String> parkings;
 
-    //Standart constructors, getters and setters
-    
-    public User() {
+    public UserDTO() {
     }
     
-    public User(String name, String rol, String email, String password, List<String> parkings) {
+    public UserDTO(String id, String name, String rol, String email, String password, List<String> parkings) {
+        this.id = id;
         this.name = name;
         this.rol = rol;
         this.email = email;
@@ -76,11 +70,5 @@ public class User {
     public void setParkings(List<String> parkings) {
         this.parkings = parkings;
     }
-
-    @Override
-    public String toString() {
-        return "User{" + "id=" + id + ", name=" + name + ", rol=" + rol + ", email=" + email + ", password=" + password + ", parkings=" + parkings + '}';
-    }
-
 
 }

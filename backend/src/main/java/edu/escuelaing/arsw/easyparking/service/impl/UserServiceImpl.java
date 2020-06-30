@@ -15,7 +15,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 /**
- * @author ragcrix
+ * @author vashi
  */
 @Service
 public class UserServiceImpl implements UserService {
@@ -39,12 +39,23 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public User saveOrUpdateStudent(User student) {
-        return userRepository.save(student);
+    public User saveOrUpdateUser(User user) {        
+        //sacar usuario si existe
+        User userExist = userRepository.findByEmail(user.getEmail());
+        //si existe actualizar valores
+        if(userExist != null){
+            String id = userExist.getId();
+            user.setId(id);
+            return userRepository.save(user);
+        }else{
+            return userRepository.save(user);
+        }
     }
 
     @Override
     public void deleteUserById(String id) {
         userRepository.deleteById(id);
     }
+    
+
 }

@@ -20,7 +20,7 @@ public interface UserService {
 
     List<User> findAllByOrderByRol();
 
-    User saveOrUpdateStudent(User student);
+    User saveOrUpdateUser(User student);
 
     void deleteUserById(String id);
 
